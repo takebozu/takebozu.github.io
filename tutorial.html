@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script type="text/javascript">
+    var packageId = "04t0o000003T8yS"
+
+    function convert() {
+        var url = document.getElementById("url");
+        parser = getParser(url.value);
+        console.log(parser);
+        var result = "https://" + parser.hostname + "/packaging/installPackage.apexp?p0=" + packageId;
+        document.getElementById("result").href = result;
+        document.getElementById("result").innerHTML = result;
+    }
+    function getParser(href) {
+        var parser = document.createElement("a");
+        parser.href = href;
+        return parser;
+    }
+    </script>
+</head>
+<h1>講義用</h1>
+ブラウザのURLを貼り付けて、「変換」ボタンを押してください。<br/>
+<input type="text" size="100" id="url"><br/>
+<input type="button" onclick="convert()" value="変換"/><br/><br/>
+結果はこの下に表示されます:<br/>
+<a id="result" href="#"></a>
+
+</html>
