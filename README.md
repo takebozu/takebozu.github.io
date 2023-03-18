@@ -1,5 +1,9 @@
 # Lucid Reader for iOS
 
+## Download
+
+[Download on the App Store](https://apps.apple.com/jp/app/lucid-reader/id6446276548)
+
 ## Privacy Policy
 
 * [English](LucidReader/PrivacyPolicy-en.md)
