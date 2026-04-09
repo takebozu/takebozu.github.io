@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>BoltClip</title>
+    <link>https://takebozu.github.io/BoltClip/appcast.xml</link>
+    <description>BoltClip update feed</description>
+    <language>en</language>
+    <!--
+      To add a new release, copy the <item> block below and update:
+      - <title> and sparkle:shortVersionString: the display version (e.g. 1.0.2)
+      - sparkle:version: the build number (e.g. 1.0.2)
+      - <pubDate>: the release date in RFC 822 format
+      - enclosure url: the GitHub Releases download URL for the zip
+      - sparkle:edSignature: output of `sign_update BoltClip.zip`
+      - length: file size in bytes of the zip
+    -->
+    <item>
+      <title>Version 1.0.1</title>
+      <sparkle:version>1.0.1</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <pubDate>Wed, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <enclosure
+        url="https://github.com/takebozu/BoltClip/releases/v1.0.1/BoltClip.zip"
+        sparkle:edSignature="qLS60eOX8MwCPUnrtab3ryKM0lbI253vh5iHriL9ZkYNMS0bVdwv+vJuZqyQZvxI18XBFtHqsP404HHNPAO1Bw==" 
+        length="3639189"
+        type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
