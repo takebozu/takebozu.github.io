@@ -10,17 +10,18 @@ Or search for "Lucid Reader" on the App Store.
 [![Download on the App Store](img/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg)](https://apps.apple.com/jp/app/lucid-reader/id6446276548)
 
 <details>
-<summary>Privacy Policy & Support</summary>
+<summary>Privacy Policy</summary>
 
-## Privacy Policy
+- [English](LucidReader/PrivacyPolicy-en.md)
+- [日本語](LucidReader/PrivacyPolicy-ja.md)
 
-* [English](LucidReader/PrivacyPolicy-en.md)
-* [日本語](LucidReader/PrivacyPolicy-ja.md)
+</details>
 
-## Support
+<details>
+<summary>Support</summary>
 
-* [English](LucidReader/Support-en.md)
-* [日本語](LucidReader/Support-ja.md)
+- [English](LucidReader/Support-en.md)
+- [日本語](LucidReader/Support-ja.md)
 
 </details>
 
