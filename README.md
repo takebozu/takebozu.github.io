@@ -12,6 +12,8 @@ Or search for "Lucid Reader" on the App Store.
 <details>
 <summary>Privacy Policy</summary>
 
+Click the link below.
+
 - [English](LucidReader/PrivacyPolicy-en.md)
 - [日本語](LucidReader/PrivacyPolicy-ja.md)
 
@@ -19,6 +21,8 @@ Or search for "Lucid Reader" on the App Store.
 
 <details>
 <summary>Support</summary>
+
+Click the link below.
 
 - [English](LucidReader/Support-en.md)
 - [日本語](LucidReader/Support-ja.md)
