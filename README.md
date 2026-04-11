@@ -12,20 +12,20 @@ Or search for "Lucid Reader" on the App Store.
 <details>
 <summary>Privacy Policy</summary>
 
-Click the link below.
-
-- [English](LucidReader/PrivacyPolicy-en.md)
-- [日本語](LucidReader/PrivacyPolicy-ja.md)
+<ul>
+<li><a href="./LucidReader/PrivacyPolicy-en.md">English</a></li>
+<li><a href="./LucidReader/PrivacyPolicy-ja.md">日本語</a></li>
+</ul>
 
 </details>
 
 <details>
 <summary>Support</summary>
 
-Click the link below.
-
-- [English](LucidReader/Support-en.md)
-- [日本語](LucidReader/Support-ja.md)
+<ul>
+<li><a href="./LucidReader/Support-en.md">English</a></li>
+<li><a href="./LucidReader/Support-ja.md">日本語</a></li>
+</ul>
 
 </details>
 
