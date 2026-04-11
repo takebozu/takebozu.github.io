@@ -4,7 +4,10 @@ Lucid Reader is designed to provide a seamless and distraction-free experience f
 
 ## Download
 
-[![Download on the Mac App Store](img/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg)](https://apps.apple.com/jp/app/lucid-reader/id6446276548)
+Click the button below to download.
+Or search for "Lucid Reader" on the App Store.
+
+[![Download on the App Store](img/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg)](https://apps.apple.com/jp/app/lucid-reader/id6446276548)
 
 <details>
 <summary>Privacy Policy & Support</summary>
