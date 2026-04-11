@@ -1,8 +1,13 @@
-# Lucid Reader for iOS
+# <img src="./img/lucidreader_logo.png" height="32" align="top">&nbsp;Lucid Reader for iOS
+
+Lucid Reader is designed to provide a seamless and distraction-free experience for simply reading PDFs, whether they are standard files or documents you've scanned yourself.
 
 ## Download
 
-[Download on the App Store](https://apps.apple.com/jp/app/lucid-reader/id6446276548)
+[![Download on the Mac App Store](img/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg)](https://apps.apple.com/jp/app/lucid-reader/id6446276548)
+
+<details>
+<summary>Privacy Policy & Support</summary>
 
 ## Privacy Policy
 
@@ -13,4 +18,17 @@
 
 * [English](LucidReader/Support-en.md)
 * [日本語](LucidReader/Support-ja.md)
+
+</details>
+
+<br/>
+<br/>
+
+# <img src="./img/boltclip_logo.png" height="32" align="top">&nbsp;BoltClip for macOS
+
+Stop losing track of your copy-paste history. BoltClip is a lightweight, high-performance clipboard manager designed for macOS, built to keep your workflow fluid and your data organized. Whether you are a developer, writer, or designer, BoltClip ensures that everything you copy is saved and ready for reuse.
+
+## Download
+
+For downloads, please see [github.com/takebozu/BoltClip](https://github.com/takebozu/BoltClip).
 
