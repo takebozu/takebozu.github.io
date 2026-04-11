@@ -15,6 +15,17 @@
       - length: file size in bytes of the zip
     -->
     <item>
+      <title>Version 1.0.3</title>
+      <sparkle:version>1.0.3</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <pubDate>Wed, 11 Apr 2026 12:00:00 +0000</pubDate>
+      <enclosure
+        url="https://github.com/takebozu/BoltClip/releases/download/v1.0.3/BoltClip.zip"
+        sparkle:edSignature="KcpKiHJagFk5+/5nbJlK5Fzs2ReE0M21oTfFZj6q/XSH3EawQY3wiIQUK+ktwKm3ad5enZ4u6d41Uq1M0hUpCw=="
+        length="3642932"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.0.2</title>
       <sparkle:version>1.0.2</sparkle:version>
       <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
