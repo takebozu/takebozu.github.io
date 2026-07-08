@@ -1,3 +1,34 @@
+# <img src="./img/gridfinder_logo.png" height="32" align="top">&nbsp;GridFinder for iOS
+
+GridFinder is an app that divides a map into a grid to help you search comprehensively.
+
+## Download
+
+Available soon.
+
+<details>
+<summary>Privacy Policy</summary>
+
+<ul>
+<li><a href="./GridFinder/PrivacyPolicy-en.html">English</a></li>
+<li><a href="./GridFinder/PrivacyPolicy-ja.html">日本語</a></li>
+</ul>
+
+</details>
+
+<details>
+<summary>Support</summary>
+
+<ul>
+<li><a href="./general/Support-en.html">English</a></li>
+<li><a href="./general/Support-ja.html">日本語</a></li>
+</ul>
+
+</details>
+
+<br/>
+<br/>
+
 # <img src="./img/lucidreader_logo.png" height="32" align="top">&nbsp;Lucid Reader for iOS
 
 Lucid Reader is designed to provide a seamless and distraction-free experience for simply reading PDFs, whether they are standard files or documents you've scanned yourself.
@@ -13,8 +44,8 @@ Or search for "Lucid Reader" on the App Store.
 <summary>Privacy Policy</summary>
 
 <ul>
-<li><a href="./LucidReader/PrivacyPolicy-en.md">English</a></li>
-<li><a href="./LucidReader/PrivacyPolicy-ja.md">日本語</a></li>
+<li><a href="./LucidReader/PrivacyPolicy-en.html">English</a></li>
+<li><a href="./LucidReader/PrivacyPolicy-ja.html">日本語</a></li>
 </ul>
 
 </details>
@@ -23,8 +54,8 @@ Or search for "Lucid Reader" on the App Store.
 <summary>Support</summary>
 
 <ul>
-<li><a href="./LucidReader/Support-en.md">English</a></li>
-<li><a href="./LucidReader/Support-ja.md">日本語</a></li>
+<li><a href="./general/Support-en.html">English</a></li>
+<li><a href="./general/Support-ja.html">日本語</a></li>
 </ul>
 
 </details>
