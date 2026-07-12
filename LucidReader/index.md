@@ -5,6 +5,9 @@ description: >-
   Lucid Reader is a distraction-free PDF reader for iOS. Read standard PDF
   files and scanned documents with a seamless, clutter-free experience.
 image: /img/lucidreader_logo.png
+lang: en
+alternate_lang: ja
+alternate_url: /ja/LucidReader/
 ---
 
 # <img src="../img/lucidreader_logo.png" height="32" align="top" alt="Lucid Reader icon"> Lucid Reader for iOS

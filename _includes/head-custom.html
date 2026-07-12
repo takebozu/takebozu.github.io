@@ -1,1 +1,78 @@
 <link rel="icon" type="image/png" href="/favicon.png">
+
+{% if page.alternate_url %}
+<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="{{ page.alternate_lang }}" href="{{ page.alternate_url | absolute_url }}">
+{% if page.lang == "en" %}
+<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+{% else %}
+<link rel="alternate" hreflang="x-default" href="{{ page.alternate_url | absolute_url }}">
+{% endif %}
+
+<style>
+  .lw-lang-banner {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0.6em 1em;
+    background: #f1f8ff;
+    border-bottom: 1px solid #c8e1ff;
+    font-size: 14px;
+  }
+  .lw-lang-banner button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #586069;
+    padding: 0 0.3em;
+  }
+</style>
+<script>
+(function () {
+  var altUrl = {{ page.alternate_url | relative_url | jsonify }};
+  var altLang = {{ page.alternate_lang | jsonify }};
+  var currentLang = {{ page.lang | jsonify }};
+  var dismissKey = "lw_lang_banner_dismissed";
+
+  document.addEventListener("DOMContentLoaded", function () {
+    if (localStorage.getItem(dismissKey)) return;
+
+    var browserLang = ((navigator.language || navigator.userLanguage || "")).toLowerCase();
+    var browserIsJa = browserLang.indexOf("ja") === 0;
+    var suggestJa = browserIsJa && currentLang !== "ja";
+    var suggestEn = !browserIsJa && currentLang === "ja";
+    if (!suggestJa && !suggestEn) return;
+
+    var message = suggestJa
+      ? "このページには日本語版があります。"
+      : "This page is also available in English.";
+    var linkText = suggestJa ? "日本語版を見る" : "View in English";
+
+    var banner = document.createElement("div");
+    banner.className = "lw-lang-banner";
+    banner.style.display = "flex";
+
+    var text = document.createElement("span");
+    text.textContent = message + " ";
+    var link = document.createElement("a");
+    link.href = altUrl;
+    link.textContent = linkText;
+    text.appendChild(link);
+
+    var close = document.createElement("button");
+    close.setAttribute("aria-label", "Dismiss");
+    close.textContent = "×";
+    close.addEventListener("click", function () {
+      localStorage.setItem(dismissKey, "1");
+      banner.style.display = "none";
+    });
+
+    banner.appendChild(text);
+    banner.appendChild(close);
+    document.body.insertBefore(banner, document.body.firstChild);
+  });
+})();
+</script>
+{% endif %}

@@ -5,6 +5,9 @@ description: >-
   GridFinder is an iOS app that divides a map into a grid to help you
   search comprehensively, so you never miss an area again.
 image: /img/gridfinder_logo.png
+lang: en
+alternate_lang: ja
+alternate_url: /ja/GridFinder/
 ---
 
 # <img src="../img/gridfinder_logo.png" height="32" align="top" alt="GridFinder icon"> GridFinder for iOS

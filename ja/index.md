@@ -1,0 +1,29 @@
+---
+layout: default
+title: iOS・macOS向けアプリ
+description: >-
+  Lucid Worksは、iOS・macOS向けの実用的なアプリを開発しています。
+  ストレスなく読めるPDFリーダー「Lucid Reader」、快適なクリップボード管理
+  アプリ「BoltClip」、地図をグリッド分割して検索を助ける「GridFinder」を提供中です。
+image: /img/lucidreader_logo.png
+lang: ja
+alternate_lang: en
+alternate_url: /
+---
+
+Lucid Worksは、iOSとmacOS向けに、シンプルで実用的なアプリを開発しているインディー開発スタジオです。それぞれのアプリは「ひとつのことをうまくやる」ことを大切に、無駄のない設計を心がけています。
+
+## アプリ一覧
+
+### [<img src="/img/lucidreader_logo.png" height="24" align="top" alt="Lucid Readerアイコン"> Lucid Reader (iOS)](/ja/LucidReader/)
+標準的なPDFファイルやスキャンした書類を、ストレスなく読めるPDFリーダーです。
+
+### [<img src="/img/gridfinder_logo.png" height="24" align="top" alt="GridFinderアイコン"> GridFinder (iOS)](/ja/GridFinder/)
+地図をグリッド状に分割し、抜け漏れのない範囲検索をサポートするアプリです。*(近日公開)*
+
+### [<img src="/img/boltclip_logo.png" height="24" align="top" alt="BoltClipアイコン"> BoltClip (macOS)](/ja/BoltClip/)
+コピー履歴を整理し、快適な作業をサポートする軽量・高速なクリップボード管理アプリです。
+
+## サポート
+
+アプリについてお困りの際は、[サポートページ](/general/Support-ja.html)をご覧ください。

@@ -5,6 +5,9 @@ description: >-
   BoltClip is a lightweight, high-performance clipboard manager for macOS
   that keeps your copy-paste history organized and ready for reuse.
 image: /img/boltclip_logo.png
+lang: en
+alternate_lang: ja
+alternate_url: /ja/BoltClip/
 ---
 
 # <img src="../img/boltclip_logo.png" height="32" align="top" alt="BoltClip icon"> BoltClip for macOS

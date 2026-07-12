@@ -6,6 +6,9 @@ description: >-
   distraction-free PDF reader Lucid Reader, the clipboard manager BoltClip
   for Mac, and the map search tool GridFinder for iOS.
 image: /img/lucidreader_logo.png
+lang: en
+alternate_lang: ja
+alternate_url: /ja/
 ---
 
 Lucid Works is an independent developer studio building small, practical apps for iOS and macOS. Every app is designed around one job, done well, without clutter.
@@ -23,4 +26,4 @@ A lightweight, high-performance clipboard manager that keeps your copy-paste his
 
 ## Support
 
-Need help with one of our apps? Visit the [support page](./general/Support-en.html) ([日本語](./general/Support-ja.html)).
+Need help with one of our apps? Visit the [support page](./general/Support-en.html).
