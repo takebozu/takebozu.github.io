@@ -18,7 +18,7 @@
       {% endif %}
 
       {% if site.title and site.title != page.title %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      <p style="font-size:2em; font-weight:600; line-height:1.25; padding-bottom:0.3em; border-bottom:1px solid #eaecef; margin:0 0 16px;"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></p>
       {% endif %}
 
       {{ content }}
@@ -29,7 +29,5 @@
       </div>
       {% endif %}
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
   </body>
 </html>
