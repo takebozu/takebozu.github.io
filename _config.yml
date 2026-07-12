@@ -6,7 +6,7 @@ description: >-
 lang: en
 url: "https://www.lucidworks.app"
 theme: jekyll-theme-primer
-logo: /img/lucidreader_logo.png
+logo: /img/lucid-works-mark.png
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

@@ -4,13 +4,13 @@ title: Lucid Reader (iOS) — 快適に読めるPDFリーダー
 description: >-
   Lucid Readerは、標準的なPDFファイルやスキャンした書類を、
   ストレスなく読めるiOS向けPDFリーダーです。
-image: /img/lucidreader_logo.png
+image: /img/og/lucidreader.png
 lang: ja
 alternate_lang: en
 alternate_url: /LucidReader/
 ---
 
-# <img src="/img/lucidreader_logo.png" height="32" align="top" alt="Lucid Readerアイコン"> Lucid Reader (iOS)
+# <img src="/img/icons/lucidreader_logo.png" height="32" align="top" alt="Lucid Readerアイコン"> Lucid Reader (iOS)
 
 Lucid Readerは、標準的なPDFファイルはもちろん、自分でスキャンした書類も含めて、シンプルかつストレスなく読めることを目指したPDFリーダーです。
 
