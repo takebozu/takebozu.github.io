@@ -14,6 +14,23 @@ alternate_url: /LucidReader/
 
 Lucid Readerは、標準的なPDFファイルはもちろん、自分でスキャンした書類も含めて、シンプルかつストレスなく読めることを目指したPDFリーダーです。
 
+## スクリーンショット
+
+<div style="display:flex; gap:12px; flex-wrap:wrap;">
+  <img src="/img/screenshots/lucidreader/p1_ja.png" alt="Lucid Readerのスクリーンショット: シンプルで直感的なPDFビューア" style="max-width:260px; width:100%; height:auto; border-radius:8px;">
+  <img src="/img/screenshots/lucidreader/p2_ja.png" alt="Lucid Readerのスクリーンショット: ファイルを非表示にできるシークレットモード" style="max-width:260px; width:100%; height:auto; border-radius:8px;">
+</div>
+
+## 主な機能
+
+- **直感的なページめくり** — タッチ・スワイプで自然にページ送り
+- **綴じ方向を選択** — 右綴じ・左綴じに対応(縦書き本もOK)
+- **表示の最適化** — 見開きページごとに独立した表示エリア・拡大率で余白を最小化
+- **ページロック** — 誤タッチによるズレを防止
+- **全画面表示**
+- **コレクション機能** — 複数ファイルをまとめて管理
+- **Pro機能**(アプリ内課金) — 複数コレクション作成、ファイル秘匿モード、Face ID/Touch ID対応
+
 ## ダウンロード
 
 下のボタンからダウンロードできます。App Storeで「Lucid Reader」と検索しても見つかります。

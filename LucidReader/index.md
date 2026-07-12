@@ -14,6 +14,23 @@ alternate_url: /ja/LucidReader/
 
 Lucid Reader is designed to provide a seamless and distraction-free experience for simply reading PDFs, whether they are standard files or documents you've scanned yourself.
 
+## Screenshots
+
+<div style="display:flex; gap:12px; flex-wrap:wrap;">
+  <img src="../img/screenshots/lucidreader/p1_en.png" alt="Lucid Reader screenshot: simple and intuitive PDF viewer with page-turn, binding, and lock controls" style="max-width:260px; width:100%; height:auto; border-radius:8px;">
+  <img src="../img/screenshots/lucidreader/p2_en.png" alt="Lucid Reader screenshot: optional Secret Mode for hiding files from the list" style="max-width:260px; width:100%; height:auto; border-radius:8px;">
+</div>
+
+## Features
+
+- **Intuitive page turning** — swipe or tap through pages naturally
+- **Right-to-left or left-to-right binding** — supports vertical-text books
+- **Optimized display** — independent zoom and display area per page to minimize margins
+- **Page lock** — prevents accidental shifts from stray touches
+- **Full-screen reading**
+- **Collections** — organize multiple files together
+- **Pro** (in-app purchase) — multiple collections, hidden files, Face ID / Touch ID lock
+
 ## Download
 
 Click the button below to download, or search for "Lucid Reader" on the App Store.
