@@ -23,7 +23,3 @@ An app that divides a map into a grid to help you search comprehensively. *(Comi
 
 ### [<img src="./img/icons/boltclip_logo.png" height="24" align="top" alt="BoltClip icon"> BoltClip for macOS](./BoltClip/)
 A lightweight, high-performance clipboard manager that keeps your copy-paste history organized.
-
-## Support
-
-Need help with one of our apps? Visit the [support page](./general/Support-en.html).

@@ -20,14 +20,6 @@ Click the button below to download, or search for "Lucid Reader" on the App Stor
 
 [![Download on the App Store](../img/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg)](https://apps.apple.com/jp/app/lucid-reader/id6446276548)
 
-## Privacy Policy
-
-- [English](./PrivacyPolicy-en.html)
-- [日本語](./PrivacyPolicy-ja.html)
-
-## Support
-
-- [English](./Support-en.html)
-- [日本語](./Support-ja.html)
+[Privacy Policy](./PrivacyPolicy-en.html) · [Support](./Support-en.html)
 
 [← Back to Lucid Works](../)

@@ -18,14 +18,6 @@ GridFinder is an app that divides a map into a grid to help you search comprehen
 
 Available soon on the App Store.
 
-## Privacy Policy
-
-- [English](./PrivacyPolicy-en.html)
-- [日本語](./PrivacyPolicy-ja.html)
-
-## Support
-
-- [English](../general/Support-en.html)
-- [日本語](../general/Support-ja.html)
+[Privacy Policy](./PrivacyPolicy-en.html) · [Support](../general/Support-en.html)
 
 [← Back to Lucid Works](../)
