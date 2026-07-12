@@ -1,73 +1,18 @@
-# <img src="./img/gridfinder_logo.png" height="32" align="top">&nbsp;GridFinder for iOS
+# Lucid Works
 
-GridFinder is an app that divides a map into a grid to help you search comprehensively.
+Source for [lucidworks.app](https://www.lucidworks.app), the site for the iOS/macOS apps built by Lucid Works:
 
-## Download
+- [GridFinder for iOS](https://www.lucidworks.app/GridFinder/)
+- [Lucid Reader for iOS](https://www.lucidworks.app/LucidReader/)
+- [BoltClip for macOS](https://www.lucidworks.app/BoltClip/)
 
-Available soon.
+Built with Jekyll and hosted on GitHub Pages. The site content lives in `index.md` and each app's `index.md`; this README is not published to the site.
 
-<details>
-<summary>Privacy Policy</summary>
+## Local development
 
-<ul>
-<li><a href="./GridFinder/PrivacyPolicy-en.html">English</a></li>
-<li><a href="./GridFinder/PrivacyPolicy-ja.html">日本語</a></li>
-</ul>
+```bash
+bundle install        # first time only
+bundle exec jekyll serve
+```
 
-</details>
-
-<details>
-<summary>Support</summary>
-
-<ul>
-<li><a href="./general/Support-en.html">English</a></li>
-<li><a href="./general/Support-ja.html">日本語</a></li>
-</ul>
-
-</details>
-
-<br/>
-<br/>
-
-# <img src="./img/lucidreader_logo.png" height="32" align="top">&nbsp;Lucid Reader for iOS
-
-Lucid Reader is designed to provide a seamless and distraction-free experience for simply reading PDFs, whether they are standard files or documents you've scanned yourself.
-
-## Download
-
-Click the button below to download.
-Or search for "Lucid Reader" on the App Store.
-
-[![Download on the App Store](img/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg)](https://apps.apple.com/jp/app/lucid-reader/id6446276548)
-
-<details>
-<summary>Privacy Policy</summary>
-
-<ul>
-<li><a href="./LucidReader/PrivacyPolicy-en.html">English</a></li>
-<li><a href="./LucidReader/PrivacyPolicy-ja.html">日本語</a></li>
-</ul>
-
-</details>
-
-<details>
-<summary>Support</summary>
-
-<ul>
-<li><a href="./general/Support-en.html">English</a></li>
-<li><a href="./general/Support-ja.html">日本語</a></li>
-</ul>
-
-</details>
-
-<br/>
-<br/>
-
-# <img src="./img/boltclip_logo.png" height="32" align="top">&nbsp;BoltClip for macOS
-
-Stop losing track of your copy-paste history. BoltClip is a lightweight, high-performance clipboard manager designed for macOS, built to keep your workflow fluid and your data organized. Whether you are a developer, writer, or designer, BoltClip ensures that everything you copy is saved and ready for reuse.
-
-## Download
-
-For downloads, please see [github.com/takebozu/BoltClip](https://github.com/takebozu/BoltClip).
-
+Then open http://localhost:4000. The `Gemfile` pins the same `github-pages` gem GitHub uses in production, so the local preview matches what actually gets deployed. It is not used by the production build itself — GitHub Pages builds from the branch with its own pinned `github-pages` gem, ignoring the `Gemfile`.

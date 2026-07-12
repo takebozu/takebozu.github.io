@@ -1,1 +1,12 @@
 title: Lucid Works
+description: >-
+  Lucid Works builds practical iOS and macOS apps: Lucid Reader, a
+  distraction-free PDF reader, BoltClip, a fast clipboard manager for Mac,
+  and GridFinder, a grid-based map search tool for iOS.
+lang: en
+url: "https://www.lucidworks.app"
+theme: jekyll-theme-primer
+logo: /img/lucidreader_logo.png
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
