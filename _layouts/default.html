@@ -18,7 +18,10 @@
       {% endif %}
 
       {% if site.title and site.title != page.title %}
-      <p style="font-size:2em; font-weight:600; line-height:1.25; padding-bottom:0.3em; border-bottom:1px solid #eaecef; margin:0 0 16px;"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></p>
+      <p style="display:flex; align-items:center; gap:0.5rem; font-size:2em; font-weight:600; line-height:1.25; padding-bottom:0.3em; border-bottom:1px solid #eaecef; margin:0 0 16px;">
+        <img src="{{ "/img/lucid-works-mark.png" | relative_url }}" alt="" width="32" height="32" style="flex:none;">
+        <a href="{{ "/" | absolute_url }}">{{ site.title }}</a>
+      </p>
       {% endif %}
 
       {{ content }}
