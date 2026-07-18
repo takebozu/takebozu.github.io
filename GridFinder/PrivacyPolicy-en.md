@@ -22,5 +22,5 @@ This policy is effective as of 2026-07-08
 
 **Contact Us**
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at support@lucidworks.app.
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me via our [Support page](../general/Support-en.html).
 

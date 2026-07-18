@@ -1,6 +1,6 @@
 **Privacy Policy**
 
-The Lucid Reader app is built as a Commercial app. This SERVICE is intended for use as is.
+Lucid Works apps are built as Commercial apps. This SERVICE is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
@@ -18,9 +18,8 @@ I value your trust in providing us your Personal Information, thus we are strivi
 
 I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
 
-This policy is effective as of 2023-03-16
+This policy is effective as of 2026-07-19
 
 **Contact Us**
 
 If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me via our [Support page](./Support-en.html).
-
