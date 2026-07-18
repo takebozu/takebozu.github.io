@@ -44,7 +44,9 @@ GridFinder は地図と現在地だけに集中した、シンプルで実用的
 
 ## ダウンロード
 
-App Storeにて近日公開予定です。
+下のボタンからダウンロードできます。App Storeで「GridFinder」と検索しても見つかります。
+
+[![Download on the App Store](/img/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg)](https://apps.apple.com/jp/app/gridfinder/id6787063767)
 
 [プライバシーポリシー](/GridFinder/PrivacyPolicy-ja.html) · [サポート](/general/Support-ja.html)
 
