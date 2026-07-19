@@ -1,5 +1,15 @@
 <link rel="icon" type="image/png" href="/favicon.png">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N84KG21DS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8N84KG21DS');
+</script>
+
 {% if page.alternate_url %}
 <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
 <link rel="alternate" hreflang="{{ page.alternate_lang }}" href="{{ page.alternate_url | absolute_url }}">
