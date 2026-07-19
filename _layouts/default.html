@@ -26,11 +26,16 @@
 
       {{ content }}
 
-      {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
+        {% if page.lang == "ja" %}
+        <a href="{{ "/general/site-privacy-ja.html" | relative_url }}">サイトのプライバシーについて</a>
+        {% else %}
+        <a href="{{ "/general/site-privacy-en.html" | relative_url }}">Website Privacy</a>
+        {% endif %}
+        {% if site.github.private != true and site.github.license %}
+        · This site is open source. {% github_edit_link "Improve this page" %}.
+        {% endif %}
       </div>
-      {% endif %}
     </div>
   </body>
 </html>
