@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 **Privacy Policy**
 
 Lucid Works apps are built as Commercial apps. This SERVICE is intended for use as is.

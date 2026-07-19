@@ -1,13 +1,104 @@
 <link rel="icon" type="image/png" href="/favicon.png">
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N84KG21DS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied'
+  });
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N84KG21DS"></script>
+<script>
   gtag('js', new Date());
 
   gtag('config', 'G-8N84KG21DS');
+</script>
+
+<style>
+  .lw-cookie-banner {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0.6em 1em;
+    background: #f1f8ff;
+    border-bottom: 1px solid #c8e1ff;
+    font-size: 14px;
+  }
+  .lw-cookie-banner button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0366d6;
+    padding: 0 0.3em;
+  }
+  .lw-cookie-banner button.lw-cookie-reject {
+    font-weight: normal;
+    color: #586069;
+  }
+</style>
+<script>
+(function () {
+  var consentKey = "lw_cookie_consent";
+  var currentLang = {{ page.lang | default: site.lang | default: "en" | jsonify }};
+
+  var stored = localStorage.getItem(consentKey);
+  if (stored === "granted") {
+    gtag('consent', 'update', { 'analytics_storage': 'granted' });
+    return;
+  }
+  if (stored === "denied") return;
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var isJa = currentLang === "ja";
+    var message = isJa
+      ? "本サイトではアクセス解析（Google Analytics）のためにCookieを使用します。"
+      : "This site uses cookies for Google Analytics to understand site usage.";
+    var acceptText = isJa ? "同意する" : "Accept";
+    var rejectText = isJa ? "拒否する" : "Reject";
+    var moreText = isJa ? "詳細" : "Learn more";
+    var moreHref = isJa ? "/general/site-privacy-ja.html" : "/general/site-privacy-en.html";
+
+    var banner = document.createElement("div");
+    banner.className = "lw-cookie-banner";
+    banner.style.display = "flex";
+
+    var text = document.createElement("span");
+    text.textContent = message + " ";
+    var link = document.createElement("a");
+    link.href = moreHref;
+    link.textContent = moreText;
+    text.appendChild(link);
+
+    var actions = document.createElement("span");
+
+    var reject = document.createElement("button");
+    reject.className = "lw-cookie-reject";
+    reject.textContent = rejectText;
+    reject.addEventListener("click", function () {
+      localStorage.setItem(consentKey, "denied");
+      banner.style.display = "none";
+    });
+
+    var accept = document.createElement("button");
+    accept.textContent = acceptText;
+    accept.addEventListener("click", function () {
+      localStorage.setItem(consentKey, "granted");
+      gtag('consent', 'update', { 'analytics_storage': 'granted' });
+      banner.style.display = "none";
+    });
+
+    actions.appendChild(reject);
+    actions.appendChild(accept);
+
+    banner.appendChild(text);
+    banner.appendChild(actions);
+    document.body.insertBefore(banner, document.body.firstChild);
+  });
+})();
 </script>
 
 {% if page.alternate_url %}

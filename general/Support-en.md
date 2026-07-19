@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 **Support**
 
 Please send an email to the following address.
