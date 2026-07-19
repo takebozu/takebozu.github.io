@@ -4,7 +4,7 @@ description: >-
   distraction-free PDF reader, BoltClip, a fast clipboard manager for Mac,
   and GridFinder, a grid-based map search tool for iOS.
 lang: en
-url: "https://www.lucidworks.app"
+url: "https://lucidworks.app"
 theme: jekyll-theme-primer
 logo: /img/lucid-works-mark.png
 plugins:
