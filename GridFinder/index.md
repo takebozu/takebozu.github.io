@@ -48,6 +48,6 @@ Click the button below to download, or search for "GridFinder" on the App Store.
 
 [![Download on the App Store](../img/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg)](https://apps.apple.com/jp/app/gridfinder/id6787063767)
 
-[Privacy Policy](./PrivacyPolicy-en.html) · [Support](../general/Support-en.html)
+[Privacy Policy](./PrivacyPolicy-en.html) · [Support](../general/contact-en.html)
 
 [← Back to Lucid Works](../)

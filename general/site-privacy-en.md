@@ -14,4 +14,4 @@ Analytics cookies are only set after you accept the cookie banner shown on this 
 
 **Contact Us**
 
-If you have any questions about this notice, do not hesitate to contact me via our [Support page](./Support-en.html).
+If you have any questions about this notice, do not hesitate to contact me via our [Support page](./contact-en.html).
