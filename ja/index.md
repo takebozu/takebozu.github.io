@@ -23,3 +23,6 @@ Lucid Worksは、iOSとmacOS向けに、シンプルで実用的なアプリを�
 
 <p style="margin:1.5em 0 0.3em; font-size:1.25em; font-weight:600; line-height:1.25;"><a href="/ja/BoltClip/"><img src="/img/icons/boltclip_logo.png" height="24" align="top" alt="BoltClipアイコン"> BoltClip (macOS)</a></p>
 コピー履歴を整理し、快適な作業をサポートする軽量・高速なクリップボード管理アプリです。
+
+<p style="margin:1.5em 0 0.3em; font-size:1.25em; font-weight:600; line-height:1.25;"><a href="/ja/FFEditExpress/"><img src="/img/icons/ffeditexpress_logo.png" height="24" align="top" alt="FFEdit Expressアイコン"> FFEdit Express (macOS)</a></p>
+In点とOut点の区間を、ffmpegのロスレスコピーで書き出せるシンプルな動画トリミングツールです。

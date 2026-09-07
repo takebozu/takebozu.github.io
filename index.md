@@ -23,3 +23,6 @@ An app that divides a map into a grid to help you search comprehensively.
 
 <p style="margin:1.5em 0 0.3em; font-size:1.25em; font-weight:600; line-height:1.25;"><a href="./BoltClip/"><img src="./img/icons/boltclip_logo.png" height="24" align="top" alt="BoltClip icon"> BoltClip for macOS</a></p>
 A lightweight, high-performance clipboard manager that keeps your copy-paste history organized.
+
+<p style="margin:1.5em 0 0.3em; font-size:1.25em; font-weight:600; line-height:1.25;"><a href="./FFEditExpress/"><img src="./img/icons/ffeditexpress_logo.png" height="24" align="top" alt="FFEdit Express icon"> FFEdit Express for macOS</a></p>
+A simple ffmpeg-based video trimmer that exports the range between your in and out points as a lossless copy.

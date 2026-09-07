@@ -5,6 +5,7 @@ Source for [lucidworks.app](https://www.lucidworks.app), the site for the iOS/ma
 - [GridFinder for iOS](https://www.lucidworks.app/GridFinder/)
 - [Lucid Reader for iOS](https://www.lucidworks.app/LucidReader/)
 - [BoltClip for macOS](https://www.lucidworks.app/BoltClip/)
+- [FFEdit Express for macOS](https://www.lucidworks.app/FFEditExpress/)
 
 Built with Jekyll and hosted on GitHub Pages. The site content lives in `index.md` and each app's `index.md`; this README is not published to the site.
 
